@@ -37,7 +37,7 @@ Footer:
 ## Tasks:
 
 - [x] Build HTML boilerplate
-- [ ] Import fonts and add stylesheet file
+- [x] Import fonts and add stylesheet file
 - [ ] Build navbar
 - [ ] Add logo
 - [ ] Build categories menu
