@@ -6,7 +6,9 @@ AirBnb clone for School of Code
 
 ### Structure:
 
-Navbar  
+Navbar:
+-top,
+-bottom,
 Main:
 -categories,  
  -places  
@@ -33,8 +35,8 @@ Footer:
 
 - [x] Build HTML boilerplate
 - [x] Import fonts and add stylesheet file
-- [x] Build navbar
-- [ ] Add logo
+- [x] Build navbar top
+- [x] Build navbar bottom
 - [ ] Build categories menu
 - [ ] Build product card
 - [ ] Build footer

@@ -26,6 +26,10 @@ li {
   font-weight: 600;
 }
 
+.active {
+  color: rgb(232, 25, 72) !important;
+}
+
 .header {
   display: flex;
   padding: 0.8rem 1.5rem;
@@ -67,4 +71,28 @@ li {
   width: 2px;
   height: 2px;
   background: #6a6a6a;
+}
+
+.navbar {
+  box-sizing: border-box;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-top: 1px solid rgba(146, 146, 146, 0.231372549);
+}
+.navbar__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+}
+.navbar__icon p {
+  font-size: 0.6rem;
+}
+.navbar__icon__svg {
+  color: #616161;
 }/*# sourceMappingURL=style.css.map */
