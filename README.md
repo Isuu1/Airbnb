@@ -37,7 +37,7 @@ Footer:
 - [x] Import fonts and add stylesheet file
 - [x] Build navbar top
 - [x] Build navbar bottom
-- [ ] Build categories menu
+- [x] Build categories menu
 - [ ] Build product card
 - [ ] Build footer
 - [ ] Check the code
