@@ -6,13 +6,10 @@ AirBnb clone for School of Code
 
 ### Structure:
 
-Navbar:  
- -top,  
- -bottom,  
-Main:  
- -categories,  
+Navbar  
+Main:
+-categories,  
  -places  
- -show more button  
 Footer:  
  -place type,  
  -places,  
@@ -24,8 +21,6 @@ Footer:
 ```
 .
 |
-|--images
-    |--
 |--style.scss
 |--style.css.map
 |--style.css
