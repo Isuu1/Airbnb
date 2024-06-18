@@ -36,8 +36,7 @@ Footer:
 - [x] Build HTML boilerplate
 - [x] Import fonts and add stylesheet file
 - [x] Build navbar top
-- [ ] Build navbar bottom
-- [ ] Add logo
+- [x] Build navbar bottom
 - [ ] Build categories menu
 - [ ] Build product card
 - [ ] Build footer
