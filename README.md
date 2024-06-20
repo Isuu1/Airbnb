@@ -47,7 +47,7 @@ Footer:
 
 - [x] Add title and favicon
 - [x] Add variables for colors
-- [ ] Fix header top position
+- [x] Fix header top position
 - [ ] Fix header bottom position
 - [ ] Fix font sizes
 
