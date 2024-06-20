@@ -225,4 +225,129 @@ li {
 .main-container__places__place-card__avaibility {
   font-weight: bold;
   color: #222222;
+}
+
+.footer {
+  background: #f7f7f7;
+  position: relative;
+  padding: 2rem 1rem 1rem 1rem;
+  margin-top: 2rem;
+}
+.footer li,
+.footer p {
+  font-size: 0.9rem !important;
+}
+.footer__headline {
+  font-size: 1.375rem !important;
+  letter-spacing: -1px;
+  margin: 1rem 0;
+}
+.footer__top-menu {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  padding: 0 0 1rem 0;
+  border-bottom: 1px solid #e0e0e0;
+  overflow: auto;
+  white-space: nowrap;
+  position: relative;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.footer__top-menu::-webkit-scrollbar {
+  display: none;
+}
+.footer__top-menu__icon {
+  position: sticky;
+  right: 0;
+  background: #f7f7f7;
+  box-shadow: 0 0 10px 10px #f7f7f7;
+}
+.footer__top-menu li {
+  cursor: pointer;
+}
+.footer__top-menu--active {
+  font-weight: bold;
+  position: relative;
+}
+.footer__top-menu--active::after {
+  content: "";
+  background: #1b1b1b;
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  left: 0;
+  bottom: -1rem;
+}
+.footer__lists {
+  margin-top: 2.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 2rem;
+}
+.footer__lists__show-more-button {
+  background: transparent;
+  border: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+.footer__lists__show-more-button i {
+  font-size: 0.9rem !important;
+  color: #222222;
+}
+.footer__separator {
+  background: #e0e0e0;
+  width: 100vw;
+  height: 1px;
+  margin: 2rem 0 0 -1rem;
+}
+.footer__bottom-menu__list {
+  list-style: none;
+  line-height: 30px;
+  margin: 0;
+  padding: 1rem 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+.footer__bottom-footer {
+  padding-top: 1.5rem;
+}
+.footer__bottom-footer__top-menu {
+  display: flex;
+  gap: 1rem;
+  flex: auto;
+}
+.footer__bottom-footer__top-menu a {
+  padding: 0.2rem 0.2rem 0 0.2rem;
+  color: #ffffff;
+  background: #1b1b1b;
+}
+.footer__bottom-footer__menu {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  line-height: 30px;
+  margin-left: -0.6rem;
+}
+.footer__bottom-footer__menu__item {
+  padding: 0 0.6rem;
+  position: relative;
+  text-wrap: wrap;
+}
+.footer__bottom-footer__menu__item:last-child::after {
+  content: none;
+}
+.footer__bottom-footer__menu__item::after {
+  position: absolute;
+  top: 50%;
+  transform: translateX(-50%);
+  right: -1px;
+  content: "";
+  width: 2px;
+  height: 2px;
+  background: #6a6a6a;
+}
+.footer__bottom-footer__copyright {
+  margin-top: 2rem;
 }/*# sourceMappingURL=style.css.map */

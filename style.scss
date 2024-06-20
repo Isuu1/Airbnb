@@ -238,3 +238,133 @@ li {
     }
   }
 }
+
+.footer {
+  background: #f7f7f7;
+  position: relative;
+  padding: 2rem 1rem 1rem 1rem;
+  margin-top: 2rem;
+  & li,
+  p {
+    font-size: 0.9rem !important;
+  }
+  &__headline {
+    font-size: 1.375rem !important;
+    letter-spacing: -1px;
+    margin: 1rem 0;
+  }
+  &__top-menu {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    padding: 0 0 1rem 0;
+    border-bottom: 1px solid #e0e0e0;
+    overflow: auto;
+    white-space: nowrap;
+    position: relative;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    &__icon {
+      position: sticky;
+      right: 0;
+      background: #f7f7f7;
+      box-shadow: 0 0 10px 10px #f7f7f7;
+    }
+    & li {
+      cursor: pointer;
+    }
+    &--active {
+      font-weight: bold;
+      position: relative;
+      &::after {
+        content: "";
+        background: #1b1b1b;
+        width: 100%;
+        height: 2px;
+        position: absolute;
+        left: 0;
+        bottom: -1rem;
+      }
+    }
+  }
+  &__lists {
+    margin-top: 2.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+    &__show-more-button {
+      background: transparent;
+      border: 0;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      & i {
+        font-size: 0.9rem !important;
+        color: #222222;
+      }
+    }
+  }
+  &__separator {
+    background: #e0e0e0;
+    width: 100vw;
+    height: 1px;
+    margin: 2rem 0 0 -1rem;
+  }
+  &__bottom-menu {
+    &__list {
+      list-style: none;
+      line-height: 30px;
+      margin: 0;
+      padding: 1rem 0;
+      border-bottom: 1px solid #e0e0e0;
+    }
+  }
+  &__bottom-footer {
+    padding-top: 1.5rem;
+    &__top-menu {
+      display: flex;
+      gap: 1rem;
+      flex: auto;
+      & a {
+        padding: 0.2rem 0.2rem 0 0.2rem;
+        color: #ffffff;
+        background: #1b1b1b;
+      }
+    }
+    &__menu {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0;
+      line-height: 30px;
+      margin-left: -0.6rem;
+      &__item {
+        padding: 0 0.6rem;
+        position: relative;
+        text-wrap: wrap;
+        //Remove dot from last item
+        &:last-child {
+          &::after {
+            content: none;
+          }
+        }
+        &::after {
+          position: absolute;
+          top: 50%;
+          transform: translateX(-50%);
+          right: -1px;
+          content: "";
+          width: 2px;
+          height: 2px;
+          background: #6a6a6a;
+        }
+      }
+    }
+    &__copyright {
+      margin-top: 2rem;
+    }
+  }
+}
