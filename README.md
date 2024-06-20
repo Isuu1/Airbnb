@@ -46,7 +46,7 @@ Footer:
 ## Extra tasks/bugs:
 
 - [x] Add title and favicon
-- [ ] Add variables for colors
+- [x] Add variables for colors
 - [ ] Fix header top position
 - [ ] Fix header bottom position
 - [ ] Fix font sizes
