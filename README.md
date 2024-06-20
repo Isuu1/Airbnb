@@ -39,9 +39,9 @@ Footer:
 - [x] Build navbar bottom
 - [x] Build categories menu
 - [x] Build product card
-- [ ] Build footer
-- [ ] Check the code
-- [ ] Check the code again
+- [x] Build footer
+- [x] Check the code
+- [x] Check the code again
 
 ## How to Install and Run the Project:
 
