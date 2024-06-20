@@ -48,7 +48,7 @@ Footer:
 - [x] Add title and favicon
 - [x] Add variables for colors
 - [x] Fix header top position
-- [ ] Fix header bottom position
+- [x] Fix header bottom position
 - [ ] Fix font sizes
 
 ## How to Install and Run the Project:
