@@ -38,7 +38,7 @@ Footer:
 - [x] Build navbar top
 - [x] Build navbar bottom
 - [x] Build categories menu
-- [ ] Build product card
+- [x] Build product card
 - [ ] Build footer
 - [ ] Check the code
 - [ ] Check the code again

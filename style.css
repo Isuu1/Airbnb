@@ -97,6 +97,10 @@ li {
   color: #616161;
 }
 
+.main-container__headline {
+  margin-left: 1rem;
+  margin-top: 2rem;
+}
 .main-container__categories {
   overflow: auto;
   position: relative;
@@ -140,4 +144,85 @@ li {
 .main-container__categories__category img {
   width: 25px;
   opacity: 0.6;
+}
+.main-container__places {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  gap: 1.7rem;
+  padding: 0 1rem;
+}
+.main-container__places__place-card {
+  cursor: pointer;
+  position: relative;
+  line-height: 22px;
+}
+.main-container__places__place-card p {
+  font-size: 0.9rem !important;
+}
+.main-container__places__place-card__pagination {
+  position: absolute;
+  width: 100%;
+  bottom: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4rem;
+}
+.main-container__places__place-card__pagination__dot {
+  border-radius: 180px;
+  width: 8px;
+  height: 8px;
+  background: #e9e9e9;
+  opacity: 0.8;
+}
+.main-container__places__place-card__pagination__dot:nth-child(4) {
+  width: 6px;
+  height: 6px;
+}
+.main-container__places__place-card__pagination__dot:last-child {
+  width: 4px;
+  height: 4px;
+}
+.main-container__places__place-card__buttons {
+  box-sizing: border-box;
+  position: absolute;
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.main-container__places__place-card__buttons__button {
+  padding: 0.55rem;
+  background: #ffffff;
+  opacity: 0.8;
+  border: 0;
+  border-radius: 180px;
+  transition: all 0.2s;
+}
+.main-container__places__place-card__buttons__button:not(:first-child):hover {
+  opacity: 1;
+}
+.main-container__places__place-card__buttons__button i {
+  font-size: 0.9rem !important;
+  color: #222222;
+  width: 0.9rem;
+  height: 0.9rem;
+}
+.main-container__places__place-card__image {
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 12px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.main-container__places__place-card__title {
+  color: #222222;
+  overflow: hidden;
+  white-space: nowrap;
+  font-weight: bold;
+}
+.main-container__places__place-card__avaibility {
+  font-weight: bold;
+  color: #222222;
 }/*# sourceMappingURL=style.css.map */
