@@ -49,7 +49,7 @@ Footer:
 - [x] Add variables for colors
 - [x] Fix header top position
 - [x] Fix header bottom position
-- [ ] Fix font sizes
+- [x] Fix font sizes
 
 ## How to Install and Run the Project:
 
