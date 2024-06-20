@@ -43,6 +43,14 @@ Footer:
 - [x] Check the code
 - [x] Check the code again
 
+## Extra tasks/bugs:
+
+- [ ] Add title and favicon
+- [ ] Add variables for colors
+- [ ] Fix header top position
+- [ ] Fix header bottom position
+- [ ] Fix font sizes
+
 ## How to Install and Run the Project:
 
 Just download a zip file and run index.html file.
