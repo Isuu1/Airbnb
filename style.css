@@ -175,7 +175,7 @@ li {
   line-height: 22px;
 }
 .main-container__places__place-card p {
-  font-size: 0.9rem !important;
+  font-size: 1rem !important;
 }
 .main-container__places__place-card__pagination {
   position: absolute;
@@ -247,7 +247,7 @@ li {
 .footer {
   background: #f7f7f7;
   position: relative;
-  padding: 2rem 1rem 1rem 1rem;
+  padding: 2rem 1rem 100px 1rem;
   margin-top: 2rem;
 }
 .footer li,

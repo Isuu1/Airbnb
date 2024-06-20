@@ -181,7 +181,7 @@ li {
       position: relative;
       line-height: 22px;
       & p {
-        font-size: 0.9rem !important;
+        font-size: 1rem !important;
       }
 
       &__pagination {
@@ -260,7 +260,7 @@ li {
 .footer {
   background: #f7f7f7;
   position: relative;
-  padding: 2rem 1rem 1rem 1rem;
+  padding: 2rem 1rem 100px 1rem;
   margin-top: 2rem;
   & li,
   p {
