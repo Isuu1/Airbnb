@@ -247,7 +247,7 @@ li {
   gap: 1rem;
   list-style: none;
   padding: 0 0 1rem 0;
-  border-bottom: 1px solid #e0e0e0;
+  border-bottom: 1px solid rgba(146, 146, 146, 0.231372549);
   overflow: auto;
   white-space: nowrap;
   position: relative;
@@ -307,7 +307,7 @@ li {
   line-height: 30px;
   margin: 0;
   padding: 1rem 0;
-  border-bottom: 1px solid #e0e0e0;
+  border-bottom: 1px solid rgba(146, 146, 146, 0.231372549);
 }
 .footer__bottom-footer {
   padding-top: 1.5rem;

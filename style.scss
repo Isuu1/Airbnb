@@ -1,4 +1,6 @@
 $primaryDarkColor: #222222;
+$primaryLightColor: #616161;
+$borderColor: #9292923b;
 
 * {
   margin: 0;
@@ -17,7 +19,7 @@ h3 {
 
 p {
   font-size: 0.75rem;
-  color: #616161;
+  color: $primaryLightColor;
 }
 
 li {
@@ -39,8 +41,8 @@ li {
   width: 90%;
   margin: 1rem auto;
   border-radius: 180px;
-  border: 1px solid #9292923b;
-  box-shadow: 0 3px 10px 2px #9292923b;
+  border: 1px solid $borderColor;
+  box-shadow: 0 3px 10px 2px $borderColor;
   &__search-icon {
     display: flex;
     align-items: center;
@@ -86,7 +88,7 @@ li {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  border-top: 1px solid #9292923b;
+  border-top: 1px solid $borderColor;
   &__icon {
     display: flex;
     flex-direction: column;
@@ -96,7 +98,7 @@ li {
       font-size: 0.6rem;
     }
     &__svg {
-      color: #616161;
+      color: $primaryLightColor;
     }
   }
 }
@@ -132,13 +134,13 @@ li {
       flex: auto;
       &:first-child {
         & p {
-          color: #222222;
+          color: $primaryDarkColor;
         }
         &::after {
           content: "";
           width: 100%;
           height: 2px;
-          background: #222222;
+          background: $primaryDarkColor;
           position: absolute;
           bottom: -16px;
         }
@@ -211,7 +213,7 @@ li {
           }
           & i {
             font-size: 0.9rem !important;
-            color: #222222;
+            color: $primaryDarkColor;
             //This is the same as font-size to keep perfect circle
             width: 0.9rem;
             height: 0.9rem;
@@ -226,14 +228,14 @@ li {
         object-fit: cover;
       }
       &__title {
-        color: #222222;
+        color: $primaryDarkColor;
         overflow: hidden;
         white-space: nowrap;
         font-weight: bold;
       }
       &__avaibility {
         font-weight: bold;
-        color: #222222;
+        color: $primaryDarkColor;
       }
     }
   }
@@ -258,7 +260,7 @@ li {
     gap: 1rem;
     list-style: none;
     padding: 0 0 1rem 0;
-    border-bottom: 1px solid #e0e0e0;
+    border-bottom: 1px solid $borderColor;
     overflow: auto;
     white-space: nowrap;
     position: relative;
@@ -303,7 +305,7 @@ li {
       gap: 0.6rem;
       & i {
         font-size: 0.9rem !important;
-        color: #222222;
+        color: $primaryDarkColor;
       }
     }
   }
@@ -319,7 +321,7 @@ li {
       line-height: 30px;
       margin: 0;
       padding: 1rem 0;
-      border-bottom: 1px solid #e0e0e0;
+      border-bottom: 1px solid $borderColor;
     }
   }
   &__bottom-footer {
