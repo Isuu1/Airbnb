@@ -102,7 +102,10 @@ li {
 }
 
 .main-container {
-  // padding: 0 0.8rem;
+  &__headline {
+    margin-left: 1rem;
+    margin-top: 2rem;
+  }
   &__categories {
     overflow: auto;
     position: relative;
@@ -146,6 +149,91 @@ li {
       & img {
         width: 25px;
         opacity: 0.6;
+      }
+    }
+  }
+  &__places {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    gap: 1.7rem;
+    padding: 0 1rem;
+    &__place-card {
+      cursor: pointer;
+      position: relative;
+      line-height: 22px;
+      & p {
+        font-size: 0.9rem !important;
+      }
+
+      &__pagination {
+        position: absolute;
+        width: 100%;
+        bottom: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.4rem;
+        &__dot {
+          border-radius: 180px;
+          width: 8px;
+          height: 8px;
+          background: #e9e9e9;
+          opacity: 0.8;
+          &:nth-child(4) {
+            width: 6px;
+            height: 6px;
+          }
+          &:last-child {
+            width: 4px;
+            height: 4px;
+          }
+        }
+      }
+      &__buttons {
+        box-sizing: border-box;
+        position: absolute;
+        width: 100%;
+        padding: 1rem;
+        display: flex;
+        justify-content: space-between;
+        &__button {
+          padding: 0.55rem;
+          // padding: 0.4rem 0.5rem 0.4rem 0.5rem;
+          background: #ffffff;
+          opacity: 0.8;
+          border: 0;
+          border-radius: 180px;
+          transition: all 0.2s;
+          //apply hover effect to all elements except first one
+          &:not(:first-child):hover {
+            opacity: 1;
+          }
+          & i {
+            font-size: 0.9rem !important;
+            color: #222222;
+            //This is the same as font-size to keep perfect circle
+            width: 0.9rem;
+            height: 0.9rem;
+          }
+        }
+      }
+
+      &__image {
+        width: 100%;
+        aspect-ratio: 1/1;
+        border-radius: 12px;
+        object-fit: cover;
+      }
+      &__title {
+        color: #222222;
+        overflow: hidden;
+        white-space: nowrap;
+        font-weight: bold;
+      }
+      &__avaibility {
+        font-weight: bold;
+        color: #222222;
       }
     }
   }
