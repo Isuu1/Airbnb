@@ -130,8 +130,10 @@ li {
 }
 
 .navbar {
+  background: #fff;
   box-sizing: border-box;
   position: fixed;
+  z-index: 2;
   bottom: 0;
   width: 100%;
   padding: 1rem;
